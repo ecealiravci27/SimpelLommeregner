@@ -29,9 +29,7 @@ public class Lommeregner {
                 System.out.println(minus(tal1,tal2));
                 break;
 
-            case "*":
-                System.out.println(gange(tal1, tal2));
-                break;
+
 
 
             default:
@@ -51,11 +49,6 @@ public class Lommeregner {
         return resultat;
     }
 
-    public static int gange(int x, int y) {
-        int resultat = x*y;
-        System.out.println("Dit resultat er: ");
-        return resultat;
-    }
 
 
 }
