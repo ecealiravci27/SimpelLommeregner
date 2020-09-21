@@ -33,9 +33,6 @@ public class Lommeregner {
                 System.out.println(gange(tal1, tal2));
                 break;
 
-            case "/":
-                System.out.println(dividere( tal1, tal2));
-                break;
 
             default:
                 System.out.println("Ugyldig regningsart.");
@@ -60,9 +57,5 @@ public class Lommeregner {
         return resultat;
     }
 
-    public static int dividere(int x, int y) {
-        int resultat = x/y;
-        System.out.println("Dit resultat er: ");
-        return resultat;
-    }
+
 }
